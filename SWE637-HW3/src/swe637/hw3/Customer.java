@@ -7,6 +7,11 @@ public class Customer {
 	Rank rank;
 	String name;
 	
+	public Customer(String name, Rank rank) {
+		super();
+		this.rank = rank;
+		this.name = name;
+	}
 	public Rank getRank() {
 		return rank;
 	}
